@@ -16,7 +16,7 @@ import sys
 
 # The text that you want to convert to audio
 input_name = sys.argv[1] + '.txt'
-mytext =  open(input_name, "r")
+mytext =  open(input_name, "r", encoding="utf8")
 
 # Language in which you want to convert
 language = 'es'
